@@ -5,8 +5,6 @@ frontend_folder="$parent_folder/frontend"
 
 if [ -d "$parent_folder" ]; then
     echo "父文件夹 $parent_folder 存在。"
-
-
     if [ -d "$backend_folder" ]; then
         echo "backend 文件夹存在，正在启动..."
         cd "$backend_folder"

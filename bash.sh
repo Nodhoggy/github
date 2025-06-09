@@ -10,7 +10,7 @@ if [ -d "$parent_folder" ]; then
     if [ -d "$backend_folder" ]; then
         echo "backend 文件夹存在，正在启动..."
         cd "$backend_folder"
-        npm run start &
+        npm run start
         echo "backend 已启动。"
     else
         echo "backend 文件夹不存在，请检查路径。"

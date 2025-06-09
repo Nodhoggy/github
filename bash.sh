@@ -1,7 +1,3 @@
-# ins_path="/home/wyc/software/TSN-NOCC-GW"
-# cd $ins_path/bin/main || exit
-# sudo ./main
-
 
 parent_folder="/home/huo/code/tsn_omc"
 backend_folder="$parent_folder/backend"

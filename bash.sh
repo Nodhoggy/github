@@ -3,7 +3,6 @@ parent_folder="/home/huo/code/tsn_omc"
 backend_folder="$parent_folder/backend"
 frontend_folder="$parent_folder/frontend"
 
-
 if [ -d "$parent_folder" ]; then
     echo "父文件夹 $parent_folder 存在。"
 
@@ -32,5 +31,4 @@ else
     exit 1
 fi
 
-echo "正在打开浏览器..."
 xdg-open "http://192.168.5.253:8080/"  # 替换为你需要的网址
